@@ -13,6 +13,6 @@ function desenharSimbolo(simbolo, posicaoLinha, posicaoColuna) {
 }
 
 function marcarJogadorAtivo(simbolo) {
-    const jogadorAtivo = document.querySelector(".jogador-ativo > span");
+    const jogadorAtivo = document.querySelector(".JogadorAtivo > span");
     jogadorAtivo.innerHTML = simbolo;
 }
